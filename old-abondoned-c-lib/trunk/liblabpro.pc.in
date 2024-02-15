@@ -1,0 +1,12 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: liblabpro
+Description: C library for accessing Vernier LabPro devices
+Version: @liblabpro_VERSION@
+URL: http://liblabpro.sf.net
+Requires.private: libusb-1.0
+Libs: -L${libdir} -llabpro -lusb-1.0
+Cflags: -I${includedir}/liblabpro

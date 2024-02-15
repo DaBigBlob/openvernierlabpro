@@ -1,0 +1,5 @@
+# I think this file is too simple to qualify for copyright, but if it does,
+# I, Matthew Trescott, release it into the public domain under the terms of
+# the Creative Commons Zero public-domain statement.
+
+SUBSYSTEM=="usb", ATTR{idVendor}=="08f7", ATTR{idProduct}=="0001", TAG+="uaccess"

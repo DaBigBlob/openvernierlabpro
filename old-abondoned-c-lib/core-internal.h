@@ -27,7 +27,7 @@
 #pragma once
 #include <libusb-1.0/libusb.h>
 #include <stdbool.h>
-#include "liblabpro.h"
+#include "backends/labpro/labpro-internal.h"
 
 /** \brief The main state manager "object"
  * 

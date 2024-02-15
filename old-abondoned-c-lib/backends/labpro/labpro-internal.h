@@ -21,6 +21,9 @@
  * 
  */
 
+#include <libusb-1.0/libusb.h>
+#include <stdbool.h>
+
 /** \file
  * \defgroup LabPro-Internal Functions used for the LabPro backend
  */

@@ -20,7 +20,7 @@
  * along with liblabpro.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "liblabpro.h"
+#include "backends/labpro/labpro-internal.h"
 #include <libusb-1.0/libusb.h>
 #include <stdlib.h>
 #include <stdio.h>
